@@ -30,7 +30,7 @@ An advanced drawing game featuring **hand gesture controls** powered by MediaPip
 
 ## 🎯 Demo
 
-**Live Demo**: [https://your-username.github.io/scribble-advance](https://your-username.github.io/scribble-advance)
+**Live Demo**: [https://devfears.github.io/scribble_advanced](https://devfears.github.io/scribble_advanced)
 
 *Note: Requires camera access and works best in Chrome browser*
 
@@ -45,8 +45,8 @@ An advanced drawing game featuring **hand gesture controls** powered by MediaPip
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/scribble-advance.git
-   cd scribble-advance
+   git clone https://github.com/devfears/scribble_advanced.git
+   cd scribble_advanced
    ```
 
 2. **Start the development server**
@@ -195,8 +195,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 🐛 **Bug Reports**: [Open an issue](https://github.com/your-username/scribble-advance/issues)
-- 💡 **Feature Requests**: [Start a discussion](https://github.com/your-username/scribble-advance/discussions)
+- 🐛 **Bug Reports**: [Open an issue](https://github.com/devfears/scribble_advanced/issues)
+- 💡 **Feature Requests**: [Start a discussion](https://github.com/devfears/scribble_advanced/discussions)
 - 📧 **Contact**: [your-email@example.com](mailto:your-email@example.com)
 
 ---
