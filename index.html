@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skribbl.io Advanced - Hand Drawing Game</title>
+    <link rel="stylesheet" href="landing.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One:wght@400&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Pattern -->
+    <div class="background-pattern"></div>
+    
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="logo">
+                <span class="letter s">s</span>
+                <span class="letter k">k</span>
+                <span class="letter r">r</span>
+                <span class="letter i">i</span>
+                <span class="letter b">b</span>
+                <span class="letter b2">b</span>
+                <span class="letter l">l</span>
+                <span class="letter dot">.</span>
+                <span class="letter i2">i</span>
+                <span class="letter o">o</span>
+                <span class="exclamation">!</span>
+            </h1>
+            <div class="subtitle">Advanced Hand Drawing</div>
+        </header>
+
+        <!-- Character Selection -->
+        <div class="character-section">
+            <div class="character-container">
+                <button class="character-nav left" id="charLeft">◀</button>
+                <div class="character-display" id="characterDisplay">
+                    <!-- Character will be dynamically inserted -->
+                </div>
+                <button class="character-nav right" id="charRight">▶</button>
+            </div>
+        </div>
+
+        <!-- Main Form -->
+        <div class="main-form">
+            <div class="form-container">
+                <div class="input-group">
+                    <input type="text" id="playerName" placeholder="Enter your name" maxlength="15" autocomplete="off">
+                </div>
+                
+                <div class="button-group">
+                    <button class="btn btn-primary" id="createRoomBtn">
+                        <span class="btn-icon">🏠</span>
+                        Create Room
+                    </button>
+                    <button class="btn btn-secondary" id="joinRoomBtn">
+                        <span class="btn-icon">🚪</span>
+                        Join Room
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Room Code Modal -->
+        <div class="modal" id="roomModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="modalTitle">Room Created!</h3>
+                    <button class="modal-close" id="modalClose">×</button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <!-- Content will be dynamically inserted -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Camera Permission Modal -->
+        <div class="modal" id="cameraModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Camera Permission Required</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="camera-info">
+                        <div class="camera-icon">📹</div>
+                        <p>This game uses hand tracking for drawing. We need access to your camera to detect hand gestures.</p>
+                        <div class="permission-steps">
+                            <div class="step">1. Click "Allow Camera Access"</div>
+                            <div class="step">2. Grant permission in your browser</div>
+                            <div class="step">3. Start drawing with your hands!</div>
+                        </div>
+                    </div>
+                    <div class="modal-buttons">
+                        <button class="btn btn-primary" id="allowCameraBtn">Allow Camera Access</button>
+                        <button class="btn btn-outline" id="cancelCameraBtn">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Info -->
+        <div class="info-section">
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-icon">🎨</div>
+                    <h3>How to Play</h3>
+                    <p>Draw with hand gestures and let others guess your masterpiece!</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">✋</div>
+                    <h3>Hand Controls</h3>
+                    <p>Use pinch gestures to draw, hand poses to control colors and brushes.</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">👥</div>
+                    <h3>Play with Friends</h3>
+                    <p>Create a room and share the code with up to 8 friends!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="landing.js"></script>
+</body>
+</html> 

@@ -1,0 +1,46 @@
+{
+  "name": "scribble-advance",
+  "version": "1.0.0",
+  "description": "An advanced drawing game featuring hand gesture controls powered by MediaPipe",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 server.py",
+    "dev": "python3 server.py",
+    "serve": "python3 -m http.server 8000",
+    "deploy": "echo 'Deploy to GitHub Pages or Vercel'",
+    "lint": "echo 'Add linting when backend is added'",
+    "test": "echo 'Add tests when backend is added'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/scribble-advance.git"
+  },
+  "keywords": [
+    "drawing",
+    "game",
+    "hand-tracking",
+    "mediapipe",
+    "gesture-control",
+    "computer-vision",
+    "multiplayer",
+    "skribbl",
+    "canvas",
+    "ai"
+  ],
+  "author": "Your Name <your-email@example.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/scribble-advance/issues"
+  },
+  "homepage": "https://github.com/your-username/scribble-advance#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "python": ">=3.7"
+  },
+  "browserslist": [
+    "Chrome >= 88",
+    "Firefox >= 85",
+    "Safari >= 14",
+    "Edge >= 88"
+  ]
+} 
